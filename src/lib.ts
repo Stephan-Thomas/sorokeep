@@ -14,3 +14,6 @@ export type { WatchOptions, WatchResult } from "./core/watch.js";
 
 export { runMonitorCycle } from "./core/monitor.js";
 export type { MonitorCycleResult } from "./core/monitor.js";
+
+export { decodeLedgerKey } from "./core/decoder.js";
+export type { DecodedLedgerKey } from "./core/decoder.js";
